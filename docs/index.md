@@ -41,6 +41,8 @@ This manual is organized into eight comprehensive sections:
 - Lifecycle Management
 
 **Market Applications**
-- Industry Use Cases
+- Real Estate & Property Mapping
+- Fleet Management & Supply Chain
+- Smart Cities & Infrastructure
+- Environmental Monitoring
 - Advanced Technologies (5G, U-Space)
-- Real-world Examples

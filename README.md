@@ -60,20 +60,6 @@ venv\Scripts\activate.bat
 # Install dependencies
 pip install -r requirements.txt
 ```
-
-### Option 2: Using conda (Alternative)
-
-If your team prefers conda:
-
-```bash
-# Create conda environment
-conda create -n lih-api-manual python=3.10
-conda activate lih-api-manual
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
 ## Quick Start
 
 After setting up your virtual environment:
@@ -191,29 +177,9 @@ git commit -m "Your descriptive commit message"
 git push
 ```
 
-## IDE Setup
-
-### VS Code
-Recommended extensions:
-- Python
-- Markdown All in One
-- YAML
-
-Add to your `.vscode/settings.json`:
-```json
-{
-    "python.defaultInterpreterPath": "./venv/bin/python",
-    "python.terminal.activateEnvironment": true
-}
-```
-
-### PyCharm
-- Configure Python interpreter to use `./venv/bin/python`
-- Enable Markdown support plugin
-
 ## Deployment to GitHub Pages
 
-### Quick Deployment
+### Quick Deployment (fist time)
 ```bash
 # Automated deployment script
 ./deploy.sh
@@ -226,9 +192,3 @@ Add to your `.vscode/settings.json`:
 
 See [`DEPLOYMENT.md`](DEPLOYMENT.md) for detailed instructions.
 
-## Need Help?
-
-- Check the [MkDocs documentation](https://www.mkdocs.org/)
-- Review [Material for MkDocs docs](https://squidfunk.github.io/mkdocs-material/)
-- See [GitHub Pages documentation](https://docs.github.com/en/pages)
-- Ask team members who have successfully set up their environment

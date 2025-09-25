@@ -87,6 +87,9 @@ nav:
     - "8.1 Real Estate & Property Mapping": usecases/real-estate.md
     - "8.2 Fleet Management & Logistics": usecases/fleet-logistics.md
     - "8.3 Disaster Response & Smart Cities": usecases/disaster-smartcity.md
+    - "8.4 Smart Cities & Infrastructure Planning": usecases/smart-cities.md
+    - "8.5 Supply Chain & Logistics Optimization": usecases/supply-chain.md
+    - "8.6 Environmental Monitoring": usecases/environmental-monitoring.md
   - "Glossary & Resources": glossary.md
 
 # --- Extra Configuration ---

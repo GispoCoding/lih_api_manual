@@ -36,8 +36,8 @@ We provide comprehensive support in:
 
 Our work is coordinated by the [**Finnish Geospatial Research Institute (FGI)**](https://www.maanmittauslaitos.fi/en/research), and our services are delivered through an extensive network of expert partners across Europe.
 
-![Co-funded by the European Union](assets/images/co_funded_eu.png){ width="100" }
-![European Digital Innovation Hub](assets/images/edih.png){ width="100" }
+![Co-funded by the European Union](assets/images/co_funded_eu.png){ width="300" }
+![European Digital Innovation Hub](assets/images/edih.png){ width="300" }
 
 ---
 

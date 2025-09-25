@@ -1,0 +1,15 @@
+# MkDocs and Material Theme
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+
+# Additional useful plugins (can be uncommented as needed)
+# mkdocs-awesome-pages-plugin  # Better page organization
+# mkdocs-git-revision-date-localized-plugin  # Git-based page dates
+# mkdocs-minify-plugin  # Minify HTML/CSS/JS
+# mkdocs-redirects  # Handle URL redirects
+# mkdocs-search  # Enhanced search (already included in mkdocs-material)
+
+# Development and quality tools
+# black  # Code formatting (if adding Python scripts)
+# flake8  # Linting (if adding Python scripts)
+# pre-commit  # Git hooks for quality checks

@@ -1,0 +1,92 @@
+site_name: Location API Business Manual for SMEs
+site_description: A strategic guide covering commercial, technical, and compliance aspects of location-based API businesses.
+site_url: https://YOUR-GITHUB-ORG.github.io/YOUR-REPO-NAME/
+
+# --- GitHub & Repository Settings ---
+repo_name: 'GitHub Repository'
+repo_url: https://github.com/YOUR-GITHUB-ORG/YOUR-REPO-NAME
+edit_uri: edit/main/docs/ # Allows "Edit this page" link to point to GitHub
+
+# --- Theme Configuration ---
+theme:
+  name: material
+  features:
+    - content.tabs.link # Useful for code examples
+    - navigation.instant # Improves site speed perception
+    - navigation.sections # Ensures clear hierarchy in the sidebar
+    - navigation.indexes # Allows index.md pages to be the root of a section
+    - toc.autohide # Hides Table of Contents when not needed
+  palette:
+    # Forces a specific color scheme if preferred, or use light/dark auto
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    logo: material/map-marker-path
+  
+# --- Extra CSS for Customization (Banners, Branding) ---
+extra_css:
+  - stylesheets/extra.css
+
+# --- Plugins for Functionality ---
+plugins:
+  - search
+  # NOTE: The "mkdocs-versioning" plugin would be added here in the live project
+  # to manage the API Lifecycle Management versioning requirement.
+
+# --- Markdown Extensions ---
+markdown_extensions:
+  - attr_list # Allows custom CSS classes on elements
+  - md_in_html # Allows Markdown inside raw HTML blocks
+  - admonition # Supports nice info/warning blocks
+  - pymdownx.highlight # Enhanced code highlighting
+  - pymdownx.superfences # Allows fences inside admonitions
+  - toc:
+      permalink: true # Adds anchor links to headings
+
+# --- Navigation Structure ---
+nav:
+  - "1. Introduction": index.md
+  - "2. API Strategy & Value":
+    - "2.1 What is a Geospatial API?": strategy/what-is-api.md
+    - "2.2 API Creator vs. API User": strategy/creator-vs-user.md
+    - "2.3 Types of Geospatial APIs": strategy/api-types.md
+  - "3. Commercialization & Legal Frameworks":
+    - "3.1 Business Models & Monetization": legal/monetization.md
+    - "3.2 Copyrights & Data Licensing": legal/licensing.md
+    - "3.3 Ethical Questions & Bias Mitigation": legal/ethics.md
+  - "4. Security, Privacy, & Compliance":
+    - "4.1 Information Security & Privacy (GDPR)": compliance/privacy.md
+    - "4.2 ISO 27001 / 25010 Standards": compliance/iso.md
+    - "4.3 Threat & Attack Modelling": compliance/threat-model.md
+    - "4.4 API Authentication & Rate Limiting": compliance/auth.md
+  - "5. Advanced Tech & Ecosystems":
+    - "5.1 Sensor APIs & 5G Technology": advanced/sensor-5g.md
+    - "5.2 Data Spaces & Collaborative GIS": advanced/data-spaces.md
+    - "5.3 EuroControl U-Space Network": advanced/u-space.md
+  - "6. API Lifecycle Management":
+    - "6.1 Design, Development, & Governance": lifecycle/design-develop.md
+    - "6.2 Versioning & Deprecation Policy": lifecycle/deprecation.md
+    - "6.3 Monitoring & Retirement": lifecycle/monitoring.md
+  - "7. Building the API (Technical Guide)":
+    - "7.1 Step-by-Step Guide": build/step-by-step.md
+    - "7.2 Selecting Tools & Frameworks": build/tools.md
+  - "8. Use Cases & Market Examples":
+    - "8.1 Real Estate & Property Mapping": usecases/real-estate.md
+    - "8.2 Fleet Management & Logistics": usecases/fleet-logistics.md
+    - "8.3 Disaster Response & Smart Cities": usecases/disaster-smartcity.md
+  - "Glossary & Resources": glossary.md
+
+# --- Copyright ---
+copyright: Copyright &copy; 2024 Your Organization. All Rights Reserved.

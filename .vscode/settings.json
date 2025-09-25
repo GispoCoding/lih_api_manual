@@ -1,0 +1,20 @@
+{
+    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "markdown.preview.breaks": true,
+    "markdown.preview.linkify": true,
+    "files.exclude": {
+        "**/venv": true,
+        "**/__pycache__": true,
+        "**/site": true,
+        "**/.mkdocs_cache": true
+    },
+    "search.exclude": {
+        "**/venv": true,
+        "**/site": true,
+        "**/.mkdocs_cache": true
+    }
+}

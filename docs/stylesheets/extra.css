@@ -1,0 +1,27 @@
+/* Custom CSS for Location API Business Manual */
+/* This file is referenced in mkdocs.yml and can be used for:
+ * - Brand customization
+ * - Deprecation notice banners
+ * - Custom styling for specific content types
+ * - Override Material theme defaults as needed
+ */
+
+/* Example: Custom banner styling for deprecation notices */
+.deprecation-banner {
+    background-color: #ff6b35;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Example: Custom styling for API endpoint documentation */
+.api-endpoint {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Placeholder for future customizations */

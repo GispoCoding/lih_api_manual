@@ -1,6 +1,6 @@
-# Location API Business Manual - Development Setup
+# Location Information API Business Manual - Development Setup
 
-This repository contains the source code for the Location API Business Manual website, built with MkDocs and the Material theme.
+This repository contains the source code for the Location Information API Business Manual website, built with MkDocs and the Material theme.
 
 ## Prerequisites
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Verification script to check that the MkDocs environment is properly set up.
+Verification script to check that the Location Information API Business Manual MkDocs environment is properly set up.
 Run this script to validate your development environment.
 """
 
@@ -23,7 +23,7 @@ def check_item(description, condition, success_msg, error_msg):
 
 def main():
     """Main verification function."""
-    print("🔍 Location API Business Manual - Environment Verification")
+    print("🔍 Location Information API Business Manual - Environment Verification")
     print("=" * 60)
     
     all_good = True

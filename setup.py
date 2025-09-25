@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Quick setup script for the Location API Business Manual project.
+Quick setup script for the Location Information API Business Manual project.
 This script helps team members set up their development environment quickly.
 """
 

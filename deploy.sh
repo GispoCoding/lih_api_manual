@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# GitHub Pages Deployment Script for Location API Business Manual
+# GitHub Pages Deployment Script for Location Information API Business Manual
 
 echo "🚀 GitHub Pages Deployment Script"
 echo "=================================="
@@ -67,7 +67,7 @@ case $REPLY in
         if [[ -n $(git status --porcelain) ]]; then
             echo "📝 Uncommitted changes detected. Committing..."
             git add .
-            git commit -m "Initial commit: Location API Business Manual with GitHub Actions deployment"
+            git commit -m "Initial commit: Location Information API Business Manual with GitHub Actions deployment"
             echo "✓ Changes committed"
         else
             echo "✓ No uncommitted changes"

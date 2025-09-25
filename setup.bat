@@ -1,5 +1,5 @@
 @echo off
-echo 🚀 Location API Business Manual - Windows Setup
+echo 🚀 Location Information API Business Manual - Windows Setup
 echo ==================================================
 
 REM Check if Python is available

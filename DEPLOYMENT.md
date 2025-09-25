@@ -1,6 +1,6 @@
 # GitHub Pages Deployment Guide
 
-This guide will help you deploy the Location API Business Manual to GitHub Pages for free hosting.
+This guide will help you deploy the Location Information API Business Manual to GitHub Pages for free hosting.
 
 ## Prerequisites
 

@@ -23,6 +23,21 @@ This manual is designed to help small and medium enterprises navigate the comple
 !!! info "For Developers"
     Ready to build? Jump to our [**Technical Implementation Guide**](build/step-by-step.md) for hands-on development.
 
+## About Location Innovation Hub
+
+The [**Location Innovation Hub**](https://locationinnovationhub.eu) is a centre of expertise for location information and technology, offering free coaching for small and medium-sized enterprises and public administrations.
+
+We provide comprehensive support in:
+
+- **Business Development** - Strategic guidance for location-based ventures
+- **Technology Adoption** - Help with implementing new geospatial technologies  
+- **Funding Opportunities** - Assistance in finding and securing project funding
+- **Market Intelligence** - Industry insights and networking opportunities
+
+Our work is coordinated by the [**Finnish Geospatial Research Institute (FGI)**](https://www.maanmittauslaitos.fi/en/research), and our services are delivered through an extensive network of expert partners across Europe.
+
+---
+
 ## Manual Structure
 
 This manual is organized into seven focused sections:

@@ -17,18 +17,19 @@ theme:
     - navigation.indexes # Allows index.md pages to be the root of a section
     - toc.autohide # Hides Table of Contents when not needed
   palette:
-    # Forces a specific color scheme if preferred, or use light/dark auto
+    # Light theme with brand colors
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: light blue
+      primary: custom
+      accent: pink
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+    # Dark theme with brand colors
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: light blue
+      primary: custom
+      accent: pink
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

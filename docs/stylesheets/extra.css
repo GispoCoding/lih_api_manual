@@ -1,27 +1,161 @@
 /* Custom CSS for Location API Business Manual */
-/* This file is referenced in mkdocs.yml and can be used for:
- * - Brand customization
- * - Deprecation notice banners
- * - Custom styling for specific content types
- * - Override Material theme defaults as needed
- */
+/* Brand Colors: #ac50b3 (purple), #dd0874 (pink), white */
 
-/* Example: Custom banner styling for deprecation notices */
+/* CSS Custom Properties for Brand Colors */
+:root {
+  --brand-purple: #ac50b3;
+  --brand-pink: #dd0874;
+  --brand-white: #ffffff;
+  --brand-light-purple: rgba(172, 80, 179, 0.1);
+  --brand-light-pink: rgba(221, 8, 116, 0.1);
+}
+
+/* Custom Primary Color Override */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--brand-purple);
+  --md-primary-fg-color--light: #c47bc9;
+  --md-primary-fg-color--dark: #8a3f8f;
+  --md-accent-fg-color: var(--brand-pink);
+  --md-accent-fg-color--transparent: var(--brand-light-pink);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--brand-purple);
+  --md-primary-fg-color--light: #c47bc9;
+  --md-primary-fg-color--dark: #8a3f8f;
+  --md-accent-fg-color: var(--brand-pink);
+  --md-accent-fg-color--transparent: var(--brand-light-pink);
+}
+
+/* Header/Navigation Styling */
+.md-header {
+  background: linear-gradient(135deg, var(--brand-purple) 0%, var(--brand-pink) 100%);
+}
+
+/* Links and Interactive Elements */
+a {
+  color: var(--brand-pink);
+}
+
+a:hover {
+  color: var(--brand-purple);
+}
+
+/* Code blocks with brand accent */
+.highlight .hll {
+  background-color: var(--brand-light-purple);
+}
+
+/* Admonition styling with brand colors */
+.md-typeset .admonition.note,
+.md-typeset .admonition.abstract,
+.md-typeset .admonition.info {
+  border-color: var(--brand-purple);
+}
+
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset .admonition.abstract > .admonition-title,
+.md-typeset .admonition.info > .admonition-title {
+  background-color: var(--brand-light-purple);
+  border-color: var(--brand-purple);
+}
+
+.md-typeset .admonition.tip,
+.md-typeset .admonition.hint,
+.md-typeset .admonition.important {
+  border-color: var(--brand-pink);
+}
+
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset .admonition.hint > .admonition-title,
+.md-typeset .admonition.important > .admonition-title {
+  background-color: var(--brand-light-pink);
+  border-color: var(--brand-pink);
+}
+
+/* Custom banner styling for deprecation notices */
 .deprecation-banner {
-    background-color: #ff6b35;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 20px;
+  background: linear-gradient(135deg, var(--brand-pink) 0%, var(--brand-purple) 100%);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Example: Custom styling for API endpoint documentation */
+/* API endpoint documentation styling */
 .api-endpoint {
-    background-color: #f8f9fa;
-    border-left: 4px solid #007bff;
-    padding: 15px;
-    margin: 10px 0;
+  background-color: var(--brand-light-purple);
+  border-left: 4px solid var(--brand-purple);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 0 4px 4px 0;
 }
 
-/* Placeholder for future customizations */
+/* Custom button styling */
+.md-button {
+  background: linear-gradient(135deg, var(--brand-purple) 0%, var(--brand-pink) 100%);
+  border: none;
+  color: white;
+}
+
+.md-button:hover {
+  background: linear-gradient(135deg, var(--brand-pink) 0%, var(--brand-purple) 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Search highlighting */
+.md-search-result__teaser mark {
+  background-color: var(--brand-light-pink);
+  color: var(--brand-purple);
+}
+
+/* Navigation highlighting */
+.md-nav__item .md-nav__link--active {
+  color: var(--brand-pink);
+}
+
+.md-nav__item .md-nav__link:hover {
+  color: var(--brand-purple);
+}
+
+/* Table of contents */
+.md-nav--secondary .md-nav__link--active {
+  color: var(--brand-pink);
+  border-left-color: var(--brand-pink);
+}
+
+/* Footer customization */
+.md-footer {
+  background: linear-gradient(135deg, var(--brand-purple) 0%, var(--brand-pink) 100%);
+}
+
+/* Logo and branding */
+.md-header__title {
+  font-weight: 600;
+}
+
+/* Custom section styling */
+.brand-section {
+  background: linear-gradient(135deg, var(--brand-light-purple) 0%, var(--brand-light-pink) 100%);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.brand-section h2,
+.brand-section h3 {
+  color: var(--brand-purple);
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    background: linear-gradient(135deg, var(--brand-purple) 0%, var(--brand-pink) 100%);
+  }
+}

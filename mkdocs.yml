@@ -89,5 +89,11 @@ nav:
     - "8.3 Disaster Response & Smart Cities": usecases/disaster-smartcity.md
   - "Glossary & Resources": glossary.md
 
+# --- Extra Configuration ---
+extra:
+  generator: false  # Remove "Made with Material for MkDocs" default text
+
 # --- Copyright ---
-copyright: Copyright &copy; 2025 Location Innovation Hub. All Rights Reserved.
+copyright: |
+  Copyright &copy; 2025 <a href="https://locationinnovationhub.eu" target="_blank" rel="noopener">Location Innovation Hub</a>. All Rights Reserved.<br>
+  Made by <a href="https://www.gispo.fi/" target="_blank" rel="noopener">Gispo Finland Ltd.</a> with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a>

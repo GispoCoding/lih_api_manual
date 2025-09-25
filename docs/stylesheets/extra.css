@@ -133,6 +133,18 @@ a:hover {
   background: linear-gradient(135deg, var(--brand-purple) 0%, var(--brand-pink) 100%);
 }
 
+/* Footer links styling */
+.md-footer-copyright a {
+  color: white;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.md-footer-copyright a:hover {
+  opacity: 0.8;
+  color: white;
+}
+
 /* Logo and branding */
 .md-header__title {
   font-weight: 600;

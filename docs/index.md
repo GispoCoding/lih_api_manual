@@ -20,11 +20,11 @@ This manual is designed to help small and medium enterprises navigate the comple
     New to location APIs? Start with [**What is a Geospatial API?**](strategy/what-is-api.md) to understand the fundamentals.
 
 !!! info "For Developers"
-    Ready to build? Jump to our [**Step-by-Step Technical Guide**](build/step-by-step.md) for hands-on implementation.
+    Ready to build? Jump to our [**Technical Implementation Guide**](build/step-by-step.md) for hands-on development.
 
 ## 📋 **Manual Structure**
 
-This manual is organized into eight comprehensive sections:
+This manual is organized into seven focused sections:
 
 **Strategic Foundation**
 - API Strategy & Value Proposition
@@ -35,14 +35,13 @@ This manual is organized into eight comprehensive sections:
 - Security, Privacy & GDPR
 - ISO Standards & Quality Assurance
 
-**Technical Implementation**
-- Development Methodologies
-- Tools & Framework Selection
-- Lifecycle Management
+**Advanced Technologies & Implementation**
+- Sensor APIs & 5G Technology
+- Data Spaces & U-Space Networks
+- Technical Implementation Guide
 
 **Market Applications**
 - Real Estate & Property Mapping
 - Fleet Management & Supply Chain
 - Smart Cities & Infrastructure
 - Environmental Monitoring
-- Advanced Technologies (5G, U-Space)

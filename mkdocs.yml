@@ -76,20 +76,16 @@ nav:
     - "5.1 Sensor APIs & 5G Technology": advanced/sensor-5g.md
     - "5.2 Data Spaces & Collaborative GIS": advanced/data-spaces.md
     - "5.3 EuroControl U-Space Network": advanced/u-space.md
-  - "6. API Lifecycle Management":
-    - "6.1 Design, Development, & Governance": lifecycle/design-develop.md
-    - "6.2 Versioning & Deprecation Policy": lifecycle/deprecation.md
-    - "6.3 Monitoring & Retirement": lifecycle/monitoring.md
-  - "7. Building the API (Technical Guide)":
-    - "7.1 Step-by-Step Guide": build/step-by-step.md
-    - "7.2 Selecting Tools & Frameworks": build/tools.md
-  - "8. Use Cases & Market Examples":
-    - "8.1 Real Estate & Property Mapping": usecases/real-estate.md
-    - "8.2 Fleet Management & Logistics": usecases/fleet-logistics.md
-    - "8.3 Disaster Response & Smart Cities": usecases/disaster-smartcity.md
-    - "8.4 Smart Cities & Infrastructure Planning": usecases/smart-cities.md
-    - "8.5 Supply Chain & Logistics Optimization": usecases/supply-chain.md
-    - "8.6 Environmental Monitoring": usecases/environmental-monitoring.md
+  - "6. Building the API (Technical Guide)":
+    - "6.1 Step-by-Step Guide": build/step-by-step.md
+    - "6.2 Selecting Tools & Frameworks": build/tools.md
+  - "7. Use Cases & Market Examples":
+    - "7.1 Real Estate & Property Mapping": usecases/real-estate.md
+    - "7.2 Fleet Management & Logistics": usecases/fleet-logistics.md
+    - "7.3 Disaster Response & Smart Cities": usecases/disaster-smartcity.md
+    - "7.4 Smart Cities & Infrastructure Planning": usecases/smart-cities.md
+    - "7.5 Supply Chain & Logistics Optimization": usecases/supply-chain.md
+    - "7.6 Environmental Monitoring": usecases/environmental-monitoring.md
   - "Glossary & Resources": glossary.md
 
 # --- Extra Configuration ---

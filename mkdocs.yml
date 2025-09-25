@@ -1,10 +1,10 @@
 site_name: Location API Business Manual for SMEs
 site_description: A strategic guide covering commercial, technical, and compliance aspects of location-based API businesses.
-site_url: https://YOUR-GITHUB-ORG.github.io/YOUR-REPO-NAME/
+site_url: https://gispocoding.github.io/lih_api_manual/
 
 # --- GitHub & Repository Settings ---
-repo_name: 'GitHub Repository'
-repo_url: https://github.com/YOUR-GITHUB-ORG/YOUR-REPO-NAME
+repo_name: 'GispoCoding/lih_api_manual'
+repo_url: https://github.com/GispoCoding/lih_api_manual
 edit_uri: edit/main/docs/ # Allows "Edit this page" link to point to GitHub
 
 # --- Theme Configuration ---

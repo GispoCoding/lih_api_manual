@@ -2,15 +2,16 @@
 
 Welcome to the **Location Information API Business Manual for SMEs**. This comprehensive guide covers the strategic, commercial, technical, and compliance aspects of building and operating location information API businesses.
 
-<div class="brand-section">
+<div class="brand-section" markdown="1">
 
-## 🎯 **Purpose & Scope**
+## Purpose & Scope
 
 This manual is designed to help small and medium enterprises navigate the complex landscape of location information APIs and geospatial services, from initial concept to successful market deployment.
 
 **What you'll learn:**
+
 - Strategic planning for API-based businesses
-- Legal and compliance frameworks
+- Legal and compliance frameworks  
 - Technical implementation approaches
 - Real-world use cases and market examples
 
@@ -22,7 +23,7 @@ This manual is designed to help small and medium enterprises navigate the comple
 !!! info "For Developers"
     Ready to build? Jump to our [**Technical Implementation Guide**](build/step-by-step.md) for hands-on development.
 
-## 📋 **Manual Structure**
+## Manual Structure
 
 This manual is organized into seven focused sections:
 

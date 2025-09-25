@@ -95,4 +95,9 @@ extra:
 # --- Copyright ---
 copyright: |
   Copyright &copy; 2025 <a href="https://locationinnovationhub.eu" target="_blank" rel="noopener">Location Innovation Hub</a>. All Rights Reserved.<br>
-  Made by <a href="https://www.gispo.fi/" target="_blank" rel="noopener">Gispo Finland Ltd.</a> with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a>
+  Made by <a href="https://www.gispo.fi/" target="_blank" rel="noopener">Gispo Finland Ltd.</a> with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a><br>
+  <a href="https://locationinnovationhub.eu/wp-content/uploads/2023/12/LIH-accessibility-statement.pdf" target="_blank" rel="noopener">Accessibility Statement</a><br>
+  <div class="footer-logos">
+    <img src="assets/images/co_funded_eu.png" alt="Co-funded by the European Union" class="footer-logo">
+    <img src="assets/images/edih.png" alt="European Digital Innovation Hub" class="footer-logo">
+  </div>

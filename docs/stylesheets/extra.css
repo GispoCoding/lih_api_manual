@@ -145,6 +145,30 @@ a:hover {
   color: white;
 }
 
+/* Footer logos styling */
+.footer-logos {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 40px;
+  margin: 0 10px;
+  vertical-align: middle;
+  background: white;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive footer logos */
+@media screen and (max-width: 768px) {
+  .footer-logo {
+    height: 30px;
+    margin: 5px 5px;
+  }
+}
+
 /* Logo and branding */
 .md-header__title {
   font-weight: 600;

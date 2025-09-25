@@ -150,6 +150,25 @@ a:hover {
   font-weight: 600;
 }
 
+/* Custom logo styling */
+.md-header__button.md-logo {
+  margin: 0.2rem;
+  padding: 0;
+}
+
+.md-header__button.md-logo img {
+  height: 2.4rem;
+  width: auto;
+  filter: brightness(0) invert(1); /* Make logo white on dark header */
+}
+
+/* Logo styling for different screen sizes */
+@media screen and (max-width: 76.1875em) {
+  .md-header__button.md-logo img {
+    height: 2rem;
+  }
+}
+
 /* Custom section styling */
 .brand-section {
   background: linear-gradient(135deg, var(--brand-light-purple) 0%, var(--brand-light-pink) 100%);

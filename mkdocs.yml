@@ -33,8 +33,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  icon:
-    logo: material/map-marker-path
+  logo: assets/images/LIH_logo.png
+  favicon: assets/images/LIH_logo.png
   
 # --- Extra CSS for Customization (Banners, Branding) ---
 extra_css:
